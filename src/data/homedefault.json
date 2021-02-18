@@ -14,6 +14,7 @@
         "description": "My name is Max Plumer. I am a Web Developer, with skills in both the back-end and front-end of web applications, and a passion for improving my craft.",
         "description2": "My previous career as a small business owner taught me the importance of viewing the challenges of a business through the lens of a developer and utilizing cutting-edge web technologies to constantly improve the customer experience. I enjoy every step of the design process, from discussion and collaboration.",
         "downloadButton": "Download CV",
+        "githubButton": "View All My Work",
         "linkBUtton": "Send Message",
         "aboutData": [
             {   
@@ -38,7 +39,7 @@
                 "id": "aboutinfo-3",
                 "iconName": "icon",
                 "label": "Interests",
-                "value": "PlayStation, Reading"
+                "value": "Golfing and Riding the OneWheel"
             },
             {
                 "id": "aboutinfo-3",
