@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiMonitor , FiActivity, FiNavigation } from "react-icons/fi";
+import { FaBusinessTime , FaCertificate, FaSchool } from "react-icons/fa";
 
 const Service = () => {
     return (
@@ -14,11 +14,11 @@ const Service = () => {
                             <div className="service wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                                 <div className="inner">
                                     <div className="icon">
-                                        <FiMonitor />
+                                        <FaCertificate />
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">Web Development</h4>
-                                        <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                    <h4 className="title">Certified Web Developer</h4>
+                                    <p>Recently certified through Vanderbilt University in Full-Stack Web Development.</p>
                                     </div>
                                 </div>
                             </div>
@@ -30,11 +30,11 @@ const Service = () => {
                             <div className="service wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                                 <div className="inner">
                                     <div className="icon">
-                                        <FiActivity />
+                                        <FaBusinessTime />
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">Creative Design</h4>
-                                        <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                        <h4 className="title">Small Business Owner</h4>
+                                        <p>Highly motivated, with a passion for using the latest web technologies to gain a competitive advantage.</p>
                                     </div>
                                 </div>
                             </div>
@@ -46,11 +46,11 @@ const Service = () => {
                             <div className="service wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                                 <div className="inner">
                                     <div className="icon">
-                                        <FiNavigation />
+                                        <FaSchool />
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">Brand Identity</h4>
-                                        <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                        <h4 className="title">Pursuing B.S. in Information Technology</h4>
+                                        <p>Expected to graduate in 2023, with a concentration in Programming and Software Development.</p>
                                     </div>
                                 </div>
                             </div>

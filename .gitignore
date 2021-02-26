@@ -11,8 +11,10 @@ node_modules
 /build
 
 # misc
-.DS_Store
+.ds_store
+/.cache
 .cache
+.cache/
 .env
 .env.local
 .env.development.local

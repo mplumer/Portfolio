@@ -44,7 +44,7 @@ const ContactForm = ({url}) => {
 			data
 		})
 			.then(res => {
-				handleServerResponse(true, "Thanks! for being with us", form);
+				handleServerResponse(true, "Thank you for reaching out! I will get back to you ASAP.", form);
 			})
 			.catch(err => {
 				handleServerResponse(false, err.response.data.error, form);
