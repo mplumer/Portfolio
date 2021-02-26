@@ -1,23 +1,23 @@
 {
     "id": "project-05",
-    "title": "The Mountain",
-    "category": "Design",
-    "client": "Arloko Corp",
-    "imgesBY": "Draxler",
-    "year": "2009 - 2019",
+    "title": "Parents-Only",
+    "category": "React.js, Express, Apollo-Server, GraphQL, Mongoose, Bcrypt, JWT",
+    "deployed": "https://arcane-reaches-47656.herokuapp.com/",
+    "repo": "https://github.com/parents-only/parents-only",
+    "year": "2021",
     "featured_image": "./images/project-05.jpg",
     "is_featured": true,
     "body": [
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+        "I worked within a team of six to complete this application in under two weeks. Parents-Only is designed to give parents the opportunity to meet other parents with similar lifestyle to connect and make friends."
     ],
     "features": [
         {
             "id": "feature-1",
-            "image": "./images/project-02.jpg"
+            "image": "./images/project-05-1.jpg"
         },
         {
             "id": "feature-2",
-            "image": "./images/project-03.jpg"
+            "image": "./images/project-05-2.jpg"
         }
     ]
 

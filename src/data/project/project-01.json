@@ -3,6 +3,8 @@
     "title": "Shop-Shop-Redux",
     "category": "MERN",
     "year": "2021",
+    "repo": "https://github.com/mplumer/shop-shop-redux",
+    "deployed": "https://shop-shop-redux-max.herokuapp.com/",
     "featured_image": "./images/project-01.jpg",
     "is_featured": true,
     "body": [

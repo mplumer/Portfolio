@@ -60,8 +60,8 @@ export const query = graphql `
             title
             body
             category
-            client
-            imgesBY
+            repo
+            deployed
             featured_image {
                 childImageSharp {
                     fluid(maxHeight: 1000, maxWidth: 1920, quality: 100) {

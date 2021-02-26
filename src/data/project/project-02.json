@@ -1,8 +1,10 @@
 {
     "id": "project-02",
     "title": "Budget-Max",
-    "category": "PWA",
+    "category": "PWA, API, Express",
     "year": "2020",
+    "deployed": "https://budget-max.herokuapp.com/",
+    "repo": "https://github.com/mplumer/budget-max",
     "featured_image": "./images/project-02.jpg",
     "is_featured": true,
     "body": [
