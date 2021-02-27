@@ -2,9 +2,9 @@
 module.exports = {
   siteMetadata: {
     title: `Max Plumer Full Stack Web Developer`,
-    description: `My Portfolio showcasing skills in Gatsby, React, Node, Express, AWS, API's, Javascript, SCSS, and more.`,
+    description: `My Portfolio, built with Gatsby, React, JavaScript, CSS and SCSS. Deployed and hosted using AWS Cloudfront, S3, and Route 53.`,
     author: `Max Plumer`,
-    siteUrl: "http://localhost:8000/",
+    siteUrl: "https://www.maxplumer.com/",
     getform_url: "https://getform.io/f/7a6695a7-c8e3-442c-bc2f-d46d3b9a535e",
   },
   

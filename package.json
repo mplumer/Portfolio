@@ -1,7 +1,7 @@
 {
   "name": "max-plumer-portfolio",
   "private": true,
-  "description": "My Portfolio built with Gatsby and React, deployed with AWS.",
+  "description": "My Portfolio, built with Gatsby, React, JavaScript, CSS and SCSS. Deployed and hosted using AWS Cloudfront, S3, and Route 53.",
   "version": "0.1.0",
   "author": "Max Plumer <maxplumer12@gmail.com>",
   "dependencies": {
@@ -60,15 +60,15 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
+    "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/mplumer/Portfolio"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/mplumer/Portfolio/issues"
   }
 }
