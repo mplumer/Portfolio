@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import {useStaticQuery, graphql , Link} from 'gatsby';
 import Img from "gatsby-image";
 import Scrollspy from 'react-scrollspy';
+import resume from '../../assets/documents//Resume-Maxwell-Plumer (2).pdf'
 
 // Start Header Area 
 const HeaderNoSidebar = () => {
@@ -78,7 +79,7 @@ const HeaderNoSidebar = () => {
             <div className="trigger-popup-menu">
                 <div className="menu_full">
                     <div className="menu_wrapper">
-                        <Scrollspy className="popup_mainmenu" items={['home','about', 'portfolio' , 'news' , 'contact']} currentClassName="is-current" offset={-200}>
+                        <Scrollspy className="popup_mainmenu" items={['home','about', 'portfolio' , 'contact' , 'resume']} currentClassName="is-current" offset={-200}>
                             <li>
                                 <a className="menu-hover-link" href="/#home" onClick={onMenuToggleClick}>
                                     <span className="hover-item">
@@ -104,17 +105,17 @@ const HeaderNoSidebar = () => {
                             </li>
 
                             <li>
-                                <a className="menu-hover-link" href="/#news" onClick={onMenuToggleClick}>
+                                <a className="menu-hover-link" href="/#contact" onClick={onMenuToggleClick}>
                                     <span className="hover-item">
-                                        <span data-text="News">News</span>
+                                        <span data-text="Contact">Contact</span>
                                     </span>
                                 </a>
                             </li>
                             
                             <li>
-                                <a className="menu-hover-link" href="/#contact" onClick={onMenuToggleClick}>
+                                <a className="menu-hover-link" href={resume} onClick={onMenuToggleClick}>
                                     <span className="hover-item">
-                                        <span data-text="Contact">Contact</span>
+                                        <span data-text="Resume">Resume</span>
                                     </span>
                                 </a>
                             </li>
