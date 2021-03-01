@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import {useStaticQuery, graphql , Link} from 'gatsby';
 import Img from "gatsby-image";
 import Scrollspy from 'react-scrollspy';
-import profile from '../../assets/documents/Profile (1).pdf'
+import resume from '../../assets/documents/Resume-Maxwell-Plumer (2).pdf'
 
 // Start Header Area 
 const Header = () => {
@@ -92,9 +92,9 @@ const Header = () => {
                                         </li>
 
                                         <li>
-                                            <a className="menu-hover-link" href={profile}>
+                                            <a className="menu-hover-link" href={resume}>
                                                 <span className="hover-item">
-                                                    <span data-text="Profile">Profile</span>
+                                                    <span data-text="Resume">Resume</span>
                                                 </span>
                                             </a>
                                         </li>
