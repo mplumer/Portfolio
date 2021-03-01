@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import GoogleMapReact from 'google-map-react';
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
+const mapAPI = process.env.GATSBY_API_KEY
 
 class Googlemap extends Component {
     static defaultProps = {
@@ -17,7 +17,7 @@ class Googlemap extends Component {
             <div>
                 <div style={{ height: '538px', width: '100%' }}>
                     <GoogleMapReact
-                    bootstrapURLKeys={{ key: "AIzaSyBiq8V4bz9YD6HCbFR7VJHefj9NeX6n--8"}}
+                    bootstrapURLKeys={{ key: mapAPI}}
                     defaultCenter={this.props.center}
                     defaultZoom={this.props.zoom}
                     >
