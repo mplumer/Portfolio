@@ -19,7 +19,7 @@ const BlogPost = () => {
                             title
                             date(formatString: "MMM Do, YYYY")
                             format
-                            category
+                            
                             image {
                                 childImageSharp {
                                     fluid(maxWidth: 374, maxHeight: 280, quality: 100) {

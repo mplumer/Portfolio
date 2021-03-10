@@ -7,7 +7,7 @@ import { slugify } from "../utils/utilityFunctions";
 
 const Post = ({content, column}) => {
     const {
-        slug, date, title, tags, author, excerpt , format , image , link, category
+        slug, date, title, author, excerpt , format , image , link, category
     } = content;
     return (
         <div className={`${column}`}>

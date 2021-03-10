@@ -27,6 +27,7 @@
     "gatsby-transformer-remark": "^2.8.28",
     "gatsby-transformer-sharp": "^2.5.5",
     "google-map-react": "^2.1.9",
+    "google-maps-react": "^2.0.6",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -56,8 +57,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "GATSBY_ENV=production && gatsby build",
+    "develop": "set GATSBY_ENV=development && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve --prefix-paths",

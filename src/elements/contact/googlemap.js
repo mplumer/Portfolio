@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import GoogleMapReact from 'google-map-react';
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
-const mapAPI = process.env.GATSBY_API_KEY
+const mapAPI = process.env.GATSBY_MAPS_API
+// import GoogleApiWrapper from "google-maps-react"
 
 class Googlemap extends Component {
     static defaultProps = {
@@ -35,3 +36,6 @@ class Googlemap extends Component {
     }
 }
 export default Googlemap;
+// export default GoogleApiWrapper({
+//     apiKey: (mapAPI),
+//   })(Googlemap)
