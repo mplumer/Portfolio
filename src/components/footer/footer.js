@@ -35,7 +35,7 @@ const Footer = ({showBelow}) => {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt_md--30 mt_sm--30 wow fadeInDown" data-wow-delay="200ms" data-wow-duration="0.2s">
                             <div className="ft-info">
-                                <p>Sam Keen Rd, < br/> Lake Wales, FL</p>
+                                <p>Tampa, FL<br /> Lakeland, FL</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt_md--30 mt_sm--30 wow fadeInDown" data-wow-delay="200ms" data-wow-duration="0.4s">
